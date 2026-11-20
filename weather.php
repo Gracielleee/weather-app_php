@@ -22,7 +22,14 @@ $weatherArt = getWeatherArt($weather['condition']);
 //print output
 echo "Getting weather for $city... \n";
 echo "\n";
-echo "City: " . $city . "\n";
+
+echo "City: " . $weather['name'] . "\n";
+echo "Region: " . $weather['region'] . "\n";
+echo "Country: " . $weather['country'] . "\n";
+echo "Timezone: " . $weather['timezone'] . "\n";
+echo "Local time: " . $weather['localtime'] . "\n";
+echo "\n";
+
 echo "Temperature: " . $weather['temp_c'] . "°C \n";
 echo "Condition: " . $weather['condition'] . "\n";
 echo "$weatherArt \n";
