@@ -1,0 +1,11 @@
+{
+    "name": "gracielle/weather-app_php",
+    "require": {
+        "guzzlehttp/guzzle": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gracielle\\WeatherAppPhp\\": "src/"
+        }
+    }
+}
